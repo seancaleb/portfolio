@@ -15,6 +15,9 @@ module.exports = {
             },
         },
         extend: {
+            height: {
+                "doc-height": "var(--doc-height)",
+            },
             fontFamily: {
                 sans: "var(--font-helvetica-neue)",
             },
