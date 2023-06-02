@@ -7,28 +7,38 @@ const NotFound = () => {
     return (
         <div className="py-40 sm:py-64 absolute top-0 left-8 right-8 bottom-0 h-doc-height sm:min-h-screen z-20 bg-background">
             <div className="w-full h-full flex items-center sm:items-start justify-center">
-                <div className="flex flex-col space-y-6 items-center text-center">
+                <div className="flex flex-col space-y-6 items-center">
                     <Motion
                         {...animateFadeUp}
                         transition={{ delay: 0.6, ...transition }}
                     >
                         <h1 className="heading_one">
                             <span className="text-transparent bg-clip-text bg-gradient-to-br from-[#1F53D6] to-[#1FD6A2] dark:from-[#7093EB] dark:to-[#70EBC8]">
-                                404
+                                Not found 404
                             </span>{" "}
-                            — page not found
                         </h1>
                     </Motion>
+
+                    <Motion
+                        {...animateFadeUp}
+                        transition={{ delay: 0.7, ...transition }}
+                    >
+                        <p className={cn("paragraph", "text-center")}>
+                            The page you&apos;re trying to visit could not be
+                            found.
+                        </p>
+                    </Motion>
+
                     <Motion
                         {...animateFade}
-                        transition={{ delay: 1.1, ...transition }}
+                        transition={{ delay: 1.2, ...transition }}
                     >
                         <div className="group relative overflow-hidden">
                             <Link
                                 href="/"
                                 className={cn(
                                     "paragraph",
-                                    "text-base relative z-10 block font-medium"
+                                    "text-base relative z-10 block"
                                 )}
                             >
                                 Back to home
