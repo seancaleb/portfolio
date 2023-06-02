@@ -1,0 +1,24 @@
+{
+    "skills": [
+        { "label": "HTML", "key": "html5" },
+        { "label": "CSS", "key": "css3" },
+        { "label": "SASS", "key": "sass" },
+        { "label": "JavaScript", "key": "javascript" },
+        { "label": "React", "key": "react" },
+        { "label": "Tailwind CSS", "key": "tailwindcss" },
+        { "label": "Chakra UI", "key": "chakraui" },
+        { "label": "Material UI", "key": "mui" },
+        { "label": "Node", "key": "nodedotjs" },
+        { "label": "Express", "key": "express" },
+        { "label": "MySQL", "key": "mysql" },
+        { "label": "MongoDB", "key": "mongodb" },
+        { "label": "TypeScript", "key": "typescript" },
+        { "label": "Git", "key": "git" },
+        { "label": "Next", "key": "nextdotjs" },
+        { "label": "Redux Toolkit", "key": "redux" },
+        { "label": "React Query", "key": "reactquery" },
+        { "label": "Storybook", "key": "storybook" },
+        { "label": "Figma", "key": "figma" },
+        { "label": "Postman", "key": "postman" }
+    ]
+}

@@ -1,0 +1,57 @@
+{
+    "projects": [
+        {
+            "title": "Note IT",
+            "description": "A demo MERN web application that allow authenticated users to perform CRUD operations.",
+            "url": "https://note-it-mern.vercel.app/",
+            "github_url": "https://github.com/seancaleb/note-it-mern",
+            "technologies": [
+                "React",
+                "TypeScript",
+                "Redux Toolkit",
+                "Material UI",
+                "Node",
+                "MongoDB",
+                "Express"
+            ]
+        },
+        {
+            "title": "SN Crypto",
+            "description": "A demo crypto application that uses the coingecko api to fetch data related to cryptocurrencies.",
+            "url": "https://sn-crypto.vercel.app/",
+            "github_url": "https://github.com/seancaleb/sn-crypto",
+            "technologies": [
+                "React",
+                "TypeScript",
+                "Redux Toolkit",
+                "Chakra UI"
+            ]
+        },
+        {
+            "title": "SNCMRCE",
+            "description": "An e-commerce web application that integrates Commerce JS to display storefront products.",
+            "url": "https://sn-commerce.vercel.app/",
+            "github_url": "https://github.com/seancaleb/sn-commerce-react",
+            "technologies": [
+                "React",
+                "JavaScript",
+                "Redux Toolkit",
+                "Firebase",
+                "Commerce JS",
+                "Chakra UI"
+            ]
+        },
+        {
+            "title": "SN Movies",
+            "description": "A demo movie application that uses the tmdb api to fetch data related to movies and casts. ",
+            "url": "https://sn-movie-react-app.vercel.app/",
+            "github_url": "https://github.com/seancaleb/sn-movie-react-app",
+            "technologies": [
+                "React",
+                "JavaScript",
+                "Redux Toolkit",
+                "Chakra UI"
+            ]
+        }
+    ]
+}

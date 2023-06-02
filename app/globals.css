@@ -1,0 +1,128 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    :root {
+        --background: 0 0% 100%;
+        --foreground: 0 0% 4%;
+
+        --muted: 210 40% 96.1%;
+        --muted-foreground: 215.4 16.3% 46.9%;
+
+        --popover: 0 0% 100%;
+        --popover-foreground: 215 25% 27%;
+
+        --card: 0 0% 100%;
+        --card-foreground: 222.2 47.4% 11.2%;
+
+        --border: 216 25% 67%;
+        --input: 220 40% 92%;
+
+        --primary: 222.2 47.4% 11.2%;
+        --primary-foreground: 210 40% 98%;
+
+        --secondary: 210 40% 96.1%;
+        --secondary-foreground: 222.2 47.4% 11.2%;
+
+        --accent: 220 40% 96%;
+        --accent-foreground: 222.2 47.4% 11.2%;
+
+        --destructive: 0 100% 50%;
+        --destructive-foreground: 210 40% 98%;
+
+        --ring: 215 20.2% 65.1%;
+
+        --radius: 0.5rem;
+    }
+
+    .dark {
+        --background: 220 40% 6%;
+        --foreground: 213 31% 91%;
+
+        --muted: 223 47% 11%;
+        --muted-foreground: 215.4 16.3% 56.9%;
+
+        --popover: 220 40% 6%;
+        --popover-foreground: 213 27% 84%;
+
+        --card: 224 71% 4%;
+        --card-foreground: 213 31% 91%;
+
+        --border: 217 24% 17%;
+        --input: 220 40% 12%;
+
+        --primary: 210 40% 98%;
+        --primary-foreground: 222.2 47.4% 1.2%;
+
+        --secondary: 222.2 47.4% 11.2%;
+        --secondary-foreground: 210 40% 98%;
+
+        --accent: 220 40% 12%;
+        --accent-foreground: 210 40% 98%;
+
+        --destructive: 0 63% 31%;
+        --destructive-foreground: 210 40% 98%;
+
+        --ring: 216 34% 17%;
+
+        --radius: 0.5rem;
+    }
+}
+
+@layer base {
+    * {
+        @apply border-border;
+    }
+
+    body {
+        -webkit-user-select: none; /* Safari */
+        -ms-user-select: none; /* IE 10 and IE 11 */
+        user-select: none; /* Standard syntax */
+
+        @apply bg-background text-foreground;
+        font-feature-settings: "rlig" 1, "calt" 1;
+    }
+}
+
+@layer components {
+    .icon {
+        @apply text-slate-700 text-2xl dark:text-slate-500;
+    }
+
+    .icon_wrapper {
+        @apply p-2 rounded-md hover:bg-slate-500 hover:bg-opacity-10 cursor-pointer;
+    }
+
+    .container_default {
+        @apply max-w-[976px] mx-auto w-full;
+    }
+
+    .main_padding {
+        @apply px-8 sm:px-12;
+    }
+
+    .section {
+        @apply py-16 sm:py-32;
+    }
+
+    .dark-300-700 {
+        @apply text-slate-700 dark:text-slate-300;
+    }
+
+    .paragraph {
+        @apply text-lg text-slate-500 max-w-[560px];
+    }
+
+    .emphasize {
+        @apply text-neutral-950 dark:text-white underline;
+    }
+
+    .heading_one {
+        @apply text-[4.25ch] leading-tight sm:text-5xl sm:leading-tight font-medium tracking-tight;
+    }
+}
+
+::-webkit-scrollbar {
+    width: 0;
+}
