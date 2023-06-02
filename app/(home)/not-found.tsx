@@ -14,7 +14,7 @@ const NotFound = () => {
                     >
                         <h1 className="heading_one">
                             <span className="text-transparent bg-clip-text bg-gradient-to-br from-[#1F53D6] to-[#1FD6A2] dark:from-[#7093EB] dark:to-[#70EBC8]">
-                                Not found 404
+                                404 not found
                             </span>{" "}
                         </h1>
                     </Motion>
