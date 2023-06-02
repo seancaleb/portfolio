@@ -20,7 +20,7 @@ const fetchProjects = async () => {
 };
 
 const Section = async () => {
-    // const { results } = await fetchProjects();
+    const { results } = await fetchProjects();
 
     return (
         <section className="section">
@@ -40,7 +40,7 @@ const Section = async () => {
                             targetElement="li"
                             className="grid grid-cols-12 gap-5"
                         >
-                            {/* {results.map(
+                            {results.map(
                                 ({
                                     id,
                                     title,
@@ -95,7 +95,7 @@ const Section = async () => {
                                         </div>
                                     </li>
                                 )
-                            )} */}
+                            )}
                         </StaggerMotion>
                     </div>
                 </div>
