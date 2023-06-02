@@ -18,7 +18,7 @@ const fetchSkills = async () => {
 };
 
 const Section = async () => {
-    const { results } = await fetchSkills();
+    // const { results } = await fetchSkills();
 
     return (
         <section className="section">
@@ -38,7 +38,7 @@ const Section = async () => {
                         transition={{ delay: 0.8, ...transition }}
                     >
                         <div className="grid grid-cols-[repeat(auto-fill,_minmax(64px,_1fr))] sm:grid-cols-[repeat(auto-fill,_minmax(128px,_1fr))] gap-12">
-                            {results.map(({ id, key, label }) => (
+                            {/* {results.map(({ id, key, label }) => (
                                 <li
                                     key={id}
                                     className="max-w-[48px] flex items-center"
@@ -50,7 +50,7 @@ const Section = async () => {
                                         />
                                     </Tooltip>
                                 </li>
-                            ))}
+                            ))} */}
                         </div>
                     </Motion>
                 </div>

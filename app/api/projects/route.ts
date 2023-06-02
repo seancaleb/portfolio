@@ -3,7 +3,7 @@ import { ProjectsResultResponseSchema } from "@/schema/project.schema";
 import { nanoid } from "nanoid";
 import projects from "./data.json";
 
-export const GET = (request: Request) => {
+export const GET = async (request: Request) => {
     const ProjectsResult = ProjectsResultResponseSchema.transform(
         ({ projects }) => ({
             results: projects.map((project) => ({
