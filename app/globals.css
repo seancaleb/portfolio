@@ -126,5 +126,6 @@
 }
 
 ::-webkit-scrollbar {
-    width: 0;
+    background-color: transparent;
+    width: 1px;
 }
