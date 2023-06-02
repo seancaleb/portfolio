@@ -9,7 +9,7 @@ const Section = () => {
     return (
         <section
             id="hero"
-            className="py-40 sm:py-64 min-h-screen sm:min-h-0 flex items-center sm:block"
+            className="py-40 sm:py-64 h-doc-height sm:min-h-0 flex items-center sm:block"
         >
             <div className="container_default relative">
                 <Motion
