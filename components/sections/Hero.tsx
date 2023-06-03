@@ -55,7 +55,7 @@ const Section = () => {
                                 className="text-base py-3 px-[18px] h-auto dark-300-700 mr-8 whitespace-nowrap"
                                 asChild
                             >
-                                <Link href="/resume">
+                                <Link href="/resume" target="_blank">
                                     <Download
                                         size={24}
                                         className="mr-3 dark-300-700"
