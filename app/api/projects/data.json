@@ -1,6 +1,21 @@
 {
     "projects": [
         {
+            "title": "JobQuest API",
+            "description": "An API that manages jobs, user profiles, user authentication, job applications and employer-specific operations.",
+            "url": "https://github.com/seancaleb/jobquest-backend-api",
+            "github_url": "https://github.com/seancaleb/jobquest-backend-api",
+            "technologies": [
+                "TypeScript",
+                "Node",
+                "Express",
+                "Mongoose",
+                "MongoDB",
+                "Zod",
+                "JWT"
+            ]
+        },
+        {
             "title": "Note IT",
             "description": "A demo MERN web application that allow authenticated users to perform CRUD operations.",
             "url": "https://note-it-mern.vercel.app/",
